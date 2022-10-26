@@ -31,3 +31,4 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 - Para crear rutas (ng g m carpeta/carpeta --routing)
 - Para crear componentes (ng g c carpeta/carpeta)
 - Para crear servivio para Json (ng g s services/data)
+- Para para y lenntar app (ng serve -o)
