@@ -6,8 +6,8 @@ import { Component, OnInit, Input } from '@angular/core';
   styleUrls: ['./posts.component.css']
 })
 export class PostsComponent implements OnInit {
-
-  @Input() ite: any;
+/* paso el i que es el iterador del ngFor del html */
+  @Input() i :any;
 
   constructor() { }
 

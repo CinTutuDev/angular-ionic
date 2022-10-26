@@ -3,7 +3,7 @@ import { CommonModule } from '@angular/common';
 
 import { PostRoutingModule } from './post-routing.module';
 import { PostComponent } from './post.component';
-/* lo puse en pllural aunque es un post por error */
+/* lo puse en plural aunque es un 'singular lol' post por error */
 import { PostsComponent } from './posts/posts.component';
 
 
