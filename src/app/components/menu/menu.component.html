@@ -1,3 +1,10 @@
 <ul class="list-group">
- <a href="" class="list-group-item">Ir a la página</a>
+ <a [routerLink]="ite.path" 
+    class="list-group-item btn btn-outline-success" 
+    *ngFor="let ite of rutas">{{ite.name}}
+   </a>
+ <!--   <a routerLink="/contact"
+  class="list-group-item btn btn-outline-warning">Ir a la página contact</a>
+  <a routerLink="/about"
+  class="list-group-item btn btn-outline-secondary">Ir a la página about</a> -->
 </ul>

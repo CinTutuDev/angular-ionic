@@ -7,6 +7,21 @@ import { Component, OnInit } from '@angular/core';
 })
 export class MenuComponent implements OnInit {
 
+  rutas = [
+    {
+      name: 'Home',
+      path: '/home'
+    },
+    {
+      name: 'About',
+      path: '/about',
+    },
+    {
+      name: 'Contact',
+      path: '/contact'
+    }
+  ];
+
   constructor() { }
 
   ngOnInit(): void {
