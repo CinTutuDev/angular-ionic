@@ -1,6 +1,9 @@
 <h1>POST</h1>
 <ul class="list-group">
- <li class="list-group-item">
+
+ <!-- creo un array para que se repita en contenido del li 
+ el json (https://jsonplaceholder.typicode.com/posts)-->
+ <li class="list-group-item" *ngFor="let ite of [1,1,1,1,1]" >
   <h2>Titulo</h2>
   <p>Hola Caracola</p>
  </li>
