@@ -2,11 +2,11 @@
 <ul class="list-group">
 
 
-<!-- 0comoponente PADRE -->
+<!-- comoponente PADRE -->
  <!-- creo un array para que se repita en contenido del li 
  el json (https://jsonplaceholder.typicode.com/posts)-->
-  <li class="list-group-item" *ngFor="let ite of mensaje">
-  <h2>{{ite.title}}</h2>
-  <p>{{ite.body}}</p>
+  <li class="list-group-item" *ngFor="let i of msg | async">
+  <h2>{{i.title}}</h2>
+  <p>{{i.body}}</p>
  </li> 
 </ul>

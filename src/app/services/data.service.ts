@@ -1,5 +1,6 @@
 import { HttpClient } from '@angular/common/http';
 import { Injectable } from '@angular/core';
+import { tap } from 'rxjs/operators';
 /*  se crea para la logica del json y realizar peticiones http 
 añadir a app.module el import http module*/
 @Injectable({

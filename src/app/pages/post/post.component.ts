@@ -1,8 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { DataService } from 'src/app/services/data.service';
 
-
-
 @Component({
   selector: 'app-post',
   templateUrl: './post.component.html',
@@ -10,7 +8,7 @@ import { DataService } from 'src/app/services/data.service';
 })
 export class PostComponent implements OnInit {
   /* creo un arrau vacio para llamarlo y coger*/
-  mensaje: any[] =[];
+  msg : any;
   /* inyecto el sercicio para coger la peticion del data.service */
   constructor( private dataService: DataService) { }
 
@@ -18,11 +16,11 @@ export class PostComponent implements OnInit {
 
   ngOnInit(){
     /* con el metodo getPosts recojo los datos de la url los miuestro por consola */
-    this.dataService.getPosts()
-    .subscribe((posts: any) => {
+   this.msg = this.dataService.getPosts();
+    /* .subscribe((posts: any) => {
       console.log(posts);
-      this.mensaje = posts;
-    });
+      this.msg = posts;
+    }); */
     
   }
 
