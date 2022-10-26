@@ -16,7 +16,8 @@ export class PostComponent implements OnInit {
 
   ngOnInit(){
     /* con el metodo getPosts recojo los datos de la url los miuestro por consola */
-   this.msg = this.dataService.getPosts();
+   this.msg = this.dataService.getPosts()
+   
     /* .subscribe((posts: any) => {
       console.log(posts);
       this.msg = posts;
