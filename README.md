@@ -29,3 +29,4 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 ## Comandos
 
 - Para crear rutas (ng g m carpeta/carpeta --routing)
+- Para crear componentes (ng g c carpeta/carpeta)
